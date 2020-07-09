@@ -1,9 +1,7 @@
 from tkinter import *
-import time
-from time import sleep
 import datetime
 import threading
-#import pickle
+
 
 #main window
 root = Tk()
@@ -12,22 +10,21 @@ root.configure(background="green")
 root.geometry("1280x720")
 root.title("Unfallfrei Counter")
 #Global roots
-global counter
 counter = 0
 startwert = 0
 
 #zeit zähler
 def print_every_n_seconds(n=60):
-        while True:
-             global counter
-             time.sleep(n)
-             now = datetime.datetime.now()
-             if now.hour == 18 and now.minute == 42:
-                 counter +=1
-                 label1.config(text = counter)
-                 f = open('dump.txt','w') 
-                 f.write('{}'.format(counter))
-                 f.close()
+    while True:
+        global counter
+        time.sleep(n)
+        now = datetime.datetime.now()
+        if now.hour == 18 and now.minute == 42:
+            counter +=1
+            label1.config(text = counter)
+            f = open('dump.txt','w') 
+            f.write('{}'.format(counter))
+            f.close()
 
 thread = threading.Thread(target=print_every_n_seconds, daemon=True)
 thread.start()
@@ -67,16 +64,13 @@ def nClick2():
     f.write('{}'.format(counter))
     f.close()
 
-
-
-
 #buttons
 
 if startwert == 0: 
-   f = open('dump.txt', 'r')
-   startwert = f.readline()
-   f.close()
-   counter = int(startwert)
+    fa = open('dump.txt', 'r')
+    startwert = fa.readline()
+    fa.close()
+    counter = int(startwert)
 
 
 
