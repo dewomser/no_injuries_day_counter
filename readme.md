@@ -1,5 +1,7 @@
 # Projekt Unfallfrei - Zähler Nestle Werk Osthofen
-Gemacht mit python3 für einen Raspberry Pi von Stefan Höhn ![Python application](https://github.com/dewomser/no_injuries_day_counter/workflows/Python%20application/badge.svg)
+Gemacht mit python3 für einen Raspberry Pi von Stefan Höhn 
+
+![Python application](https://github.com/dewomser/no_injuries_day_counter/workflows/Python%20application/badge.svg)
 
 ### Zugang über Wlan ist möglich:
 /etc/wpa_supplicant/wpa_supplicant.conf
