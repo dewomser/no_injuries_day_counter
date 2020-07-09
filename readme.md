@@ -1,4 +1,4 @@
-# Projekt Unfallfrei - Zähler Nestle Werk Osthofen
+# Projekt Unfallfrei - Zähler "Lolo" Werk Osthofen
 Gemacht mit python3 für einen Raspberry Pi von Stefan Höhn 
 
 ![Python application](https://github.com/dewomser/no_injuries_day_counter/workflows/Python%20application/badge.svg)
