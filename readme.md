@@ -25,10 +25,10 @@ user=pi
 pw= #####
 
 
-### USB DCF-Empfänger  deinstalliert
+### USB DCF-Empfänger wieder deinstalliert
 Quelle:https://wiki.ubuntuusers.de/ntpd/ntp_mit_externen_lokalen_Zeitquellen/
 
-### Anleitung rtc ds1392 Datum setzen /Uhrzeit einstellen: (8.JUli 13:32)
+### Anleitung rtc ds1302 Datum setzen /Uhrzeit einstellen: (8.JUli 13:32)
 
 sudo date -u 07081332
 
