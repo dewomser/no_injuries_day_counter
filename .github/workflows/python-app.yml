@@ -22,7 +22,7 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        sudo ap-get install Xorg
+        sudo apt-get install Xorg
         startx
         export DISPLAY=0.0
         xhost +
