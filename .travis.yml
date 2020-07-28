@@ -7,16 +7,5 @@ python:
   - "3.8"
   - "3.8-dev"  # 3.8 development branch
   - "nightly"  # nightly build
-# command to install dependencies
-
-before_install:
-    - pip install pytest pytest-cov
-install:
-  - pip install -r requirements.txt    
-
-virtualenv:
-  system_site_packages: true
-
-# command to run tests
 script:
-  - pytest counter.py
+  - pytest
