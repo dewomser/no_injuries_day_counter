@@ -1,6 +1,7 @@
 # Projekt Unfallfrei - Zähler "Lolo" Werk Osthofen
 Gemacht mit python3 für einen Raspberry Pi von Stefan Höhn 
 
+Getestet nur mit dem Linter, Kein Online-Pytest (Probleme mit X und tkinter und github ) Lokal hat Pytest funktioniert.
 ![Python application](https://github.com/dewomser/no_injuries_day_counter/workflows/Python%20application/badge.svg)
 
 ### Zugang über Wlan ist möglich:
