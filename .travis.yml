@@ -19,4 +19,4 @@ virtualenv:
 
 # command to run tests
 script:
-  - pytest
+  - pytest counter.py
