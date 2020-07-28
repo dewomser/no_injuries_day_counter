@@ -1,10 +1,22 @@
-from tkinter import *
+#from tkinter import *
+#1.Zeile ist nur zum Testen deaktiviert.
+from tkinter import Tk
+
+
+# def clipboard_get():
+#    r = Tk()
+#    r.withdraw()
+#    return r.clipboard_get()
+
+
 import datetime
 import threading
 
 
 #main window
 root = Tk()
+root.withdraw()
+return root.clipboard_get()
 root.configure(background="green")
 #root.geometry("1024x600")
 root.geometry("1280x720")
