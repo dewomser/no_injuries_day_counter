@@ -18,10 +18,10 @@ def clipboard_get():
     root = Tk()
     root.withdraw()
     return root.clipboard_get()
-root.configure(background="green")
+#root.configure(background="green")
 #root.geometry("1024x600")
-root.geometry("1280x720")
-root.title("Unfallfrei Counter")
+#root.geometry("1280x720")
+#root.title("Unfallfrei Counter")
 #Global roots
 counter = 0
 startwert = 0
