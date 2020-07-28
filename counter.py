@@ -14,9 +14,10 @@ import threading
 
 
 #main window
-root = Tk()
-root.withdraw()
-return root.clipboard_get()
+def clipboard_get():
+    root = Tk()
+    root.withdraw()
+    return root.clipboard_get()
 root.configure(background="green")
 #root.geometry("1024x600")
 root.geometry("1280x720")
