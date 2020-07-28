@@ -8,9 +8,7 @@ language: python
 python:
 #  - "2.7" # see https://github.com/WolfgangFahl/gremlin-python-tutorial/issues/7
   - "3.8"
-# command to install dependencies
-install:
-  - pip install -r requirements.txt
+
 # command to run tests
 script:
   - pytest counter.py
