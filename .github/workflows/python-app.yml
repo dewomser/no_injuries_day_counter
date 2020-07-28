@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install xorg
-        startx
+        # startx
         export DISPLAY=0.0
         xhost +
         python -m pip install --upgrade pip
