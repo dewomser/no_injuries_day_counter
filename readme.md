@@ -3,6 +3,7 @@ Gemacht mit python3 für einen Raspberry Pi von Stefan Höhn
 
 Getestet mit verschiedenen  Linter;
 Online Linter ohne berücksichtigung der Ausgabe von tkinter [![Python lint](https://github.com/dewomser/no_injuries_day_counter/actions/workflows/python-app.yml/badge.svg)](https://github.com/dewomser/no_injuries_day_counter/actions/workflows/python-app.yml)
+
 Lokal hat Pytest funktioniert.
 
 
